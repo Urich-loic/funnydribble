@@ -25,7 +25,7 @@ export default function SearchForm() {
 
     return (
        <form action="">
-         <TextField.Root onChange={term => handleChange(term.target.value)} radius='full' placeholder="Search the docs…">
+         <TextField.Root className='outline-black'  onChange={term => handleChange(term.target.value)} radius='full' placeholder="Search the docs…">
             <TextField.Slot>
                 <MagnifyingGlassIcon height="16" width="16" />
             </TextField.Slot>

@@ -21,26 +21,26 @@ import {
 
   const components: { title: string; href: string; description: string }[] = [
     {
-      title: "Alert Dialog",
-      href: "/docs/primitives/alert-dialog",
+      title: "Find Designers",
+      href: "/find-designers",
       description:
         "A modal dialog that interrupts the user with important content and expects a response.",
     },
     {
-      title: "Hover Card",
-      href: "/docs/primitives/hover-card",
+      title: "Inspiration",
+      href: "/inpiration",
       description:
         "For sighted users to preview content available behind a link.",
     },
     {
-      title: "Progress",
-      href: "/docs/primitives/progress",
+      title: "Jobs",
+      href: "/job",
       description:
         "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
     },
     {
-      title: "Scroll-area",
-      href: "/docs/primitives/scroll-area",
+      title: "Go pro",
+      href: "/go-pro",
       description: "Visually or semantically separates content.",
     },
     {
@@ -164,14 +164,14 @@ return (
           <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
           <NavigationMenuContent className="l-3">
             <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-              <ListItem href="/docs" title="Introduction">
-                Re-usable components built using Radix UI and Tailwind CSS.
+              <ListItem href="/" title="Introduction">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </ListItem>
-              <ListItem href="/docs/installation" title="Installation">
-                How to install dependencies and structure your app.
+              <ListItem href="/" title="Installation">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </ListItem>
-              <ListItem href="/docs/primitives/typography" title="Typography">
-                Styles for headings, paragraphs, lists...etc
+              <ListItem href="/" title="Typography">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </ListItem>
             </ul>
           </NavigationMenuContent>

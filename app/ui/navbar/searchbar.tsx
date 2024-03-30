@@ -25,8 +25,8 @@ export default function Searchbar() {
             <div>
                 <ul className='flex'>
                 {navlinks.map((navlink) => {
-                    return (<li key={navlink.name} className='ml-8'><Link href={navlink.link} className={` px-4 py-2 rounded-2xl
-                    ${pathname == navlink.link? "bg-black text-white " : ""}`}>{navlink.name}</Link></li>)
+                    return (<li key={navlink.name} className='ml-8'><Link href={navlink.link} className={` hover:bg-gray-300 px-4 py-2 rounded-2xl
+                    ${pathname == navlink.link? "bg-gray-200 " : ""}`}>{navlink.name}</Link></li>)
                 })}
                 </ul>
             </div>
